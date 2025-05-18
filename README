@@ -1,0 +1,5 @@
+solana-keygen new -o wallets/sender1.json
+solana-keygen new -o wallets/sender2.json
+solana airdrop 1 --keypair wallets/sender1.json --url https://api.devnet.solana.com
+solana airdrop 1 --keypair wallets/sender2.json --url https://api.devnet.solana.com
+cargo run
