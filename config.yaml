@@ -1,0 +1,10 @@
+rpc_url: "https://api.devnet.solana.com"
+
+wallets:
+  - from_keypair: "./wallets/sender1.json"
+    to_address: "9uEtzDpCjH8z2V7xgdzUNtHeL1PHvnkFv5wQj4QUC1cC"
+    amount_sol: 0.01
+
+  - from_keypair: "./wallets/sender2.json"
+    to_address: "C1Evb4VhQXCDt79MFa9sGHMDj3v2Y8PViUzLTxA2cBh5"
+    amount_sol: 0.02
